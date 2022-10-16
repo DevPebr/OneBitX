@@ -1,0 +1,137 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container00.container08 {
+  background-image: url(../../images/humanFlight/01.jpg);
+}
+
+.container00.container09 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+
+.container00.container10 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+
+.container00.container11 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+
+.container00.container12 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+.container01content {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container01content .titleHuman {
+  font-size: 110px;
+}
+
+.container01content .subTitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.earthDesc .textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  margin-top: auto;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .container01content {
+    height: 95vh;
+  }
+  .container01content .titleHuman {
+    font-size: 90px;
+  }
+  .containerRightContent {
+    margin-left: 10%;
+    margin-top: auto;
+  }
+  .earthDesc .textDescEarth {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 16px;
+    width: auto;
+  }
+}
+
+@media (max-width: 610px) {
+  .container01content .titleHuman {
+    font-size: 60px;
+  }
+  .container01content img {
+    width: 150px;
+  }
+  .container01content .subTitleHuman {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 380px) {
+  .container01content .titleHuman {
+    font-size: 40px;
+  }
+  .container01content .subTitleHuman {
+    font-size: 24px;
+  }
+  .container01content img {
+    width: 100px;
+  }
+}
+/*# sourceMappingURL=humanSpace.css.map */
